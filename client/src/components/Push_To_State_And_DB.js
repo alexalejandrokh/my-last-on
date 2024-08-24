@@ -42,7 +42,7 @@ const Push_To_State_And_DB = () => {
         } catch (error) {
             console.error("Error sending input:", error);
         }
-        navigate(`/display/${userData.operationNumber}`);
+        navigate(`/DocumentVerify/${userData.operationNumber}`);
     };
 
     return (

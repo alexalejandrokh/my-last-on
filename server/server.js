@@ -14,19 +14,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use("/files", express.static("files"))
 ////// the above line will make our folders accessable from any where
 
-const _dirname = path.dirname("")
-const buildPath = path.join(_dirname, "../client/build")
-app.use(express.static(buildPath))
-app.get("/*", function (req, res) {
-  res.sendFile(
-    path.join(__dirname, "../client/build/index.html"),
-    function (err) {
-      if (err) {
-        res.status(500).send(err)
-      }
-    }
-  );
-})
+
 /////////////// Connect to MongoDB
 mongoose.connect(
   "mongodb+srv://alexalejandrokh:yW7NJWBJr9H8uUWG@cluster0.he2zowb.mongodb.net/tstfhdb",
@@ -126,6 +114,20 @@ app.get("/get-files", async (req, res) => {
       res.send({ status: "ok", data: data });
     });
   } catch (error) { }
+})
+
+const _dirname = path.dirname("")
+const buildPath = path.join(_dirname, "../client/build")
+app.use(express.static(buildPath))
+app.get("/*", function (req, res) {
+  res.sendFile(
+    path.join(__dirname, "../client/build/index.html"),
+    function (err) {
+      if (err) {
+        res.status(500).send(err)
+      }
+    }
+  );
 })
 
 // app.get("/api/test", async (req, res) => {

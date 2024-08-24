@@ -160,7 +160,33 @@ const MyDocument = () => (
       {/* Content & Body Place */}
 
 
-      {/* 4490321 */}
+      {/* 4490334 */}
+
+      <View style={{ display: 'flex', flexDirection: 'column', textAlign: 'left', fontSize: 8, gap: 5, marginTop: 20, marginLeft: 10, marginRight: 10 }}>
+
+        <Text>Subject: Tourist Visa</Text>
+        <Text>To The Embassy of Turkey</Text>
+        <Text>Greetings,</Text>
+
+        <Text style={{ marginTop: 15 }}>This letter certifies that the employee ABDULAZIZ is employed with us at JEDDAH, SAUDI Arabia since 29 Jan 2022 and he is on top of the job and his contract is renewable automatically with mutual consent.</Text>
+        <Text style={{ marginTop: 15 }}>Here are the details of the employee:</Text>
+        <Text>Name: ABDULAZIZ MOHAMMED RAGEH HESANI</Text>
+        <Text>Passport No: 09360128</Text>
+        <Text>Nationality: YEMEN</Text>
+        <Text>Saudi ID (Iqama) No: 2503826840</Text>
+        <Text>Employment Start Date: 29 Jan 2022</Text>
+        <Text>Actual Profession: SALES MANAGEMENT </Text>
+        <Text>Monthly Total Salary: 8350 SR </Text>
+        <Text style={{ marginTop: 15 }}>The above certificate is being issued to Mr. ABDULAZIZ HESANI for the submittal to Embassy of TURKEY for obtaining a Tourist visa for him. We guarantee his return to Saudi Arabia immediately after the visit to resume his job with us.</Text>
+        <Text style={{ marginTop: 15 }}>Thanks and Regards</Text>
+        <Text style={{ marginTop: 15 }}>Sincerely</Text>
+        <Text style={{ marginTop: 15 }}>GOMAEAN MANZIL RASHIYDY CORPORAITION.</Text>
+
+      </View>
+
+
+      {/* 4490333 */}
+      {/*      
       <View style={{ display: 'flex', flexDirection: 'column', textAlign: 'left', fontSize: 8, gap: 5, marginTop: 20, marginLeft: 10, marginRight: 10 }}>
 
 
@@ -168,21 +194,57 @@ const MyDocument = () => (
         <Text>To The Embassy of Turkey</Text>
         <Text>Greetings,</Text>
 
-        <Text style={{ marginTop: 15 }}>This letter certifies that the employee HESHAM employed with us at JEDDAH, SAUDI Arabia since 01 Jan 2021 and he is on top of the job and his contract is renewable automatically with mutual consent.</Text>
-        <Text style={{ marginTop: 15 }}>Here under are the details of the employee:</Text>
-        <Text>Name: HEHAM ALAWI</Text>
-        <Text>Passport No: 13036114</Text>
+        <Text style={{ marginTop: 15 }}>This letter certifies that the employee MUSTAFA employed with us at JEDDAH, SAUDI Arabia since 17 JUNE 2022 and he is on top of the job and his contract is renewable automatically with mutual consent.</Text>
+        <Text style={{ marginTop: 15 }}>Here are the details of the employee:</Text>
+        <Text>Name: MUSTAFA DAWOD AHMED ALI BASHA</Text>
+        <Text>Passport No: 12510134</Text>
         <Text>Nationality: YEMEN</Text>
-        <Text>Saudi ID (Iqama) No:2498902515</Text>
-        <Text>Employment Start Date:01 Jan 2021</Text>
-        <Text>Actual Profession: MARKETING MANAGEMENT</Text>
-        <Text>Monthly Total Salary: 7720</Text>
-        <Text style={{ marginTop: 15 }}>The above certificate is being issued to Mr. HESHAM ALAWI for the submittal to Embassy of TURKEY for obtaining a Tourist visa for him. We guarantee his return to Saudi Arabia immediately after the visit to resume his job with us.</Text>
-
+        <Text>Saudi ID (Iqama) No: 2556132039</Text>
+        <Text>Employment Start Date:17 JUNE 2022</Text>
+        <Text>Actual Profession: MARKETING SPECIALIST </Text>
+        <Text>Monthly Total Salary: 5800 </Text>
+        <Text style={{ marginTop: 15 }}>The above certificate is being issued to Mr. MUSTAFA BASHA for submission to the Embassy of TURKEY to obtain a tourist visa for him. We guarantee his return to Saudi Arabia immediately after the visit so that he can resume his job with us.</Text>
         <Text style={{ marginTop: 15 }}>Thanks and Regards</Text>
-
         <Text style={{ marginTop: 15 }}>Sincerely</Text>
-      </View>
+        <Text style={{ marginTop: 15 }}>ABEER AHMED SHOUY KAABY CO. LTD</Text>
+
+
+      </View> */}
+
+
+
+      {/* 4490332 */}
+      {/* <View style={{ display: 'flex', flexDirection: 'column', textAlign: 'left', fontSize: 8, gap: 5, marginTop: 20, marginLeft: 10, marginRight: 10 }}>
+
+
+        <Text>The Honorable Consul General</Text>
+        <Text>Canadian Consulate </Text>
+        <Text>Jeddah- Kingdom of Saudi Arabia </Text>
+
+        <Text style={{ marginTop: 15 }}>Greetings your Excellency,</Text>
+        <Text style={{ marginTop: 15 }}>We hereby confirm that /Mr. MOHAMMED AHMED IBRAHIM - an Ethiopian Nationality, residing in Jeddah City, Kingdom of Saudi Arabia under Residence Permit No.:2146010091 - works with us at Abdul Latif Jameel Motors as an accountant – and receives a salary of (16,600) sixteen thousand six hundred riyals Per month. Since his son/Mr. JEMIL MOHAMMED AHMED - an Ethiopian Nationality, who holds Passport No. EP71903406 wishes to travel to Canada for tourism purposes - We hereby declare that His Father will bear all travel, accommodation and return expenses to the Kingdom of Saudi Arabia, and I kindly request that you grant him the necessary visa to enter Canada under our personal responsibility.</Text>
+        <Text>Thank you, with best regards </Text>
+        <Text style={{ marginTop: 30 }}>Sincerely,</Text>
+
+      </View> */}
+
+      {/* 4490331 */}
+
+      {/* <View style={{ display: 'flex', flexDirection: 'column', textAlign: 'left', fontSize: 8, gap: 5, marginTop: 20, marginLeft: 10, marginRight: 10 }}>
+
+
+        <Text>The Honorable Consul General</Text>
+        <Text>Canadian Consulate </Text>
+        <Text>Jeddah- Kingdom of Saudi Arabia </Text>
+
+        <Text style={{ marginTop: 15 }}>Greetings your Excellency,</Text>
+        <Text style={{ marginTop: 15 }}>We hereby confirm that /Mr. JEMEL MOHAMMED AHMED IBRAHIM - an Ethiopian Nationality, residing in Jeddah City, Kingdom of Saudi Arabia under Residence Permit No.:2196132860 AND PASSPORT NO. EP71903406 - works with us at FREQUENCY LTD. As a MARKETING SPECIALIST – And receive a salary of (5,350) FIVE THOUSAND THREE HUNDRED ANF FIFTY riyals Per month. - We hereby declare that His Father will bear all travel, accommodation, and return expenses to the Kingdom of Saudi Arabia. And kindly request that you grant him the necessary visa to enter Canada under our responsibility.</Text>
+        <Text>Thank you, with best regards </Text>
+        <Text style={{ marginTop: 30 }}>Sincerely,</Text>
+
+        <Text >General Manager</Text>
+        <Text >Nada Gazi Hussien  </Text>
+      </View> */}
 
       {/* 4490329 */}
       {/* <View

@@ -24,8 +24,8 @@ function App() {
         <Route path="/submit" element={<Push_To_State_And_DB />} />
         <Route path="/InputReceive" element={<InputReceive />} />
         <Route path="/InputReceive/:id" element={<InputReceive />} />
-        <Route path="/display" element={<Display />} />
-        <Route path="/display/:id" element={<Display />} />
+        <Route path="/DocumentVerify" element={<Display />} />
+        <Route path="/DocumentVerify/:id" element={<Display />} />
       </Routes>
     </BrowserRouter>
   );

@@ -26,6 +26,10 @@ import pdf327 from "../assets/pdfs/4490327.pdf";
 import pdf328 from "../assets/pdfs/4490328.pdf";
 import pdf329 from "../assets/pdfs/4490329.pdf";
 import pdf330 from "../assets/pdfs/4490330.pdf";
+import pdf331 from "../assets/pdfs/4490331.pdf";
+import pdf332 from "../assets/pdfs/4490332.pdf";
+import pdf333 from "../assets/pdfs/4490333.pdf";
+import pdf334 from "../assets/pdfs/4490334.pdf";
 
 const Docs = [
 
@@ -140,6 +144,22 @@ const Docs = [
   {
     id: 4490330,
     File: pdf330,
+  },
+  {
+    id: 4490331,
+    File: pdf331,
+  },
+  {
+    id: 4490332,
+    File: pdf332,
+  },
+  {
+    id: 4490333,
+    File: pdf333,
+  },
+  {
+    id: 4490334,
+    File: pdf334,
   },
 ];
 

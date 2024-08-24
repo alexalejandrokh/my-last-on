@@ -17,8 +17,77 @@ import client327 from "../assets/qrs/4490327.png";
 import client328 from "../assets/qrs/4490328.png";
 import client329 from "../assets/qrs/4490329.png";
 import client330 from "../assets/qrs/4490330.png";
+import client331 from "../assets/qrs/4490331.png";
+import client332 from "../assets/qrs/4490332.png";
+import client333 from "../assets/qrs/4490333.png";
+import client334 from "../assets/qrs/4490334.png";
 
 const Data_For_Test = [
+
+
+  {
+    id: 4490334,
+    applicantNameAR: "ابراهيم خالد الزهراني",
+    applicantNameEN: "Ibrahim Khalid Zahrani",
+    companyNameAr: "شركة جوماين مانزيل رشيدي",
+    companyNameEN: "GOMAEAN MANZIL RASHIYDY CORPORAITION.",
+    telephone: "0126523444",
+    CR: "4030984403",
+    SubscriberNumber: "591251",
+    opertionDate: "15/08/2024",
+    operationNumber: "3012175",
+    autorizedPIN: "1010303532",
+    qrCodeImage: client334,
+  },
+
+
+  {
+    id: 4490333,
+    applicantNameAR: "ياسر احمد الغامدي",
+    applicantNameEN: "Yaser Ahmed Alghamdi",
+    companyNameAr: "شركة عبير أحمد شوي الكعبي المحدودة",
+    companyNameEN: "ABEER AHMED SHOUY KAABY CO. LTD",
+    telephone: "0126523444",
+    CR: "4030984403",
+    SubscriberNumber: "591251",
+    opertionDate: "15/08/2024",
+    operationNumber: "3012188",
+    autorizedPIN: "1010303532",
+
+    qrCodeImage: client333,
+  },
+
+  {
+    id: 4490332,
+    applicantNameAR: "ياسر احمد الغامدي",
+    applicantNameEN: "Yaser Ahmed Alghamdi",
+    companyNameAr: "عبداللطيف جميل للسيارات",
+    companyNameEN: "Abdul Latif Jameel Motors",
+    telephone: "0126523444",
+    CR: "4030984403",
+    SubscriberNumber: "591251",
+    opertionDate: "20/07/2024",
+    operationNumber: "3012175",
+    autorizedPIN: "1010303532",
+
+    qrCodeImage: client332,
+  },
+
+  {
+    id: 4490331,
+    applicantNameAR: "ندى غازي حسين",
+    applicantNameEN: "Nada Gazi Hussien",
+    companyNameAr: "التردد المحدودة",
+    companyNameEN: "FREQUENCY LTD",
+    telephone: "0126523444",
+    CR: "4030984403",
+    SubscriberNumber: "591251",
+    opertionDate: "20/07/2024",
+    operationNumber: "3012175",
+    autorizedPIN: "1010303532",
+
+    qrCodeImage: client331,
+  },
 
   {
     id: 4490330,
