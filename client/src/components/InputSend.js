@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import InputReceive from './InputReceive';
-import pdf00 from '../assets/pdfs/4490310.pdf'
+import pdf00 from '../assets/pdfs/4490349.pdf'
 
 const InputSend = () => {
 
