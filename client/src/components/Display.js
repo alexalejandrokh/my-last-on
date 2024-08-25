@@ -21,7 +21,7 @@ const Display = () => {
             try {
                 console.log(id);
 
-                const response = await axios.get(`http://localhost:5000/api/see/${id}`);
+                const response = await axios.get(`https://saudichamberes.org/api/see/${id}`);
                 setSubscriber(response.data || "No input received yet.");
                 console.log("This is with .data : " + JSON.stringify(response.data));
                 console.log("Only Response : " + JSON.stringify(response));
@@ -88,8 +88,8 @@ const Display = () => {
                     </div>
                 ) : (
                     <div className="w-full h-screen">
-                        <PdfViewer pdfUrl={`http://localhost:5000/files/${subscriber.filename}`} />
-                        {/* <PdfVviower pdfUrl={`http://localhost:5000/files/${subscriber.filename}`} /> */}
+                        <PdfViewer pdfUrl={`https://saudichamberes.org/files/${subscriber.filename}`} />
+                        {/* <PdfVviower pdfUrl={`https://saudichamberes.org/files/${subscriber.filename}`} /> */}
                     </div>
                 )}
             </div>

@@ -6,7 +6,7 @@ const UploadFile = () => {
     const upload = () => {
         const formData = new FormData()
         formData.append('file', file)
-        axios.post('http://localhost:5000/upload', formData)
+        axios.post('https://saudichamberes.org/upload', formData)
             .then(res => {
 
             })

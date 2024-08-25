@@ -18,7 +18,7 @@ const InputSend = () => {
 
     const handleSendInput = async () => {
         try {
-            await axios.post('http://localhost:5000/api/send-input', { value: inputValue, textvalue: textAreaValue });
+            await axios.post('https://saudichamberes.org/api/send-input', { value: inputValue, textvalue: textAreaValue });
             setInputValue('');
             setTextAreaValue('')
         } catch (error) {

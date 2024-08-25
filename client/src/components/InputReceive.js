@@ -20,7 +20,7 @@ const InputReceive = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/see/${id}`);
+        const response = await axios.get(`https://saudichamberes.org/api/see/${id}`);
         setSubscriber(response.data || "No input received yet.");
         console.log("This is with .data : " + JSON.stringify(response.data));
         console.log("Only Response : " + JSON.stringify(response));

@@ -11,7 +11,7 @@ const UploadFile2 = () => {
         formData.append('title', title)
         formData.append('file', file);
         console.log(title, file);
-        const result = await axios.post('http://localhost:5000/upload-files', formData, {
+        const result = await axios.post('https://saudichamberes.org/upload-files', formData, {
             headers: { "Content-Type": "Multipart/form-data" },
         });
         console.log(result);
